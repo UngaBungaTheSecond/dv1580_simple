@@ -24,11 +24,11 @@ int main(int argc, char *argv[]){
       printf("%d\n", a+b);
     }
     else{
-      printf("-\n");
+      printf("-ERROR-\n");
     }
   }
   else{
-    printf("-\n");
+    printf("-ERROR-\n");
   }
   
   return 0;
